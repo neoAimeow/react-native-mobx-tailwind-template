@@ -1,6 +1,9 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsx": "react-jsx",
+    "typeRoots": ["typings"],
     "strict": true
   }
 }
